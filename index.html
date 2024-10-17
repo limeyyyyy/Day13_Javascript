@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lets learn javascript!!!</h1>
+    <h2>How do we do onclick events and alerts on an anchor</h2>
+
+    <a href="https://www.youtube.com" target="_blank" onclick="alert('Warning! You are navigating away from the webpage!')">youtube</a>
+    
+    <hr>
+    <h2>How do we display and hide text?</h2>
+    <h2>Whats my secret identity?</h2>
+    <p id="secret"></p>
+    <button onclick="document.getElementById('secret').innerHTML='nananananananananana batman!';
+    document.getElementById('secret').style.display='block'">Reveal!</button>
+
+    <button onclick="document.getElementById('secret').style.display='none'">Hide</button>
+
+    <h2>how to change an img w js?</h2>
+    <img src="images/on.jpg" id="myImage" style="height:200px; width: 200px;">
+
+    <button onclick="document.getElementById('myImage').src='images/Untitled picture.jpg'">bulb off</button>
+    <button onclick="document.getElementById('myImage').src='images/on.jpg'">bulb on</button>
+
+    <h2>how to change style w button</h2>
+    <p id="alice">Hi I am alice</p>
+
+    <button onclick="document.getElementById('alice').style.color='blue';
+    document.getElementById('alice').style.fontSize='5px';">Cake - Eat me</button>
+
+    <button onclick="document.getElementById('alice').style.color='red';
+    document.getElementById('alice').style.fontSize='50px';">Cake - Drink me</button>
+
+    <h2>changing font</h2>
+    <p id="font">Font Demonstration</p>
+
+    <button onclick="document.getElementById('font').style.fontFamily='Calibri';">Change Font</button>
+
+    <h2>changing background color</h2>
+    <p id="background">background color</p>
+
+    <button onclick="document.getElementById('background').style.backgroundColor='aqua'">change color</button>
+</body>
+</html>
